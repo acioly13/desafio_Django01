@@ -19,7 +19,7 @@ class TecnologiasDeleteView(DeleteView):
     template_name = "index.html"
     model = Tecnologias
     context_object_name = 'tecnologias'
-    success_url = reverse_lazy("http://127.0.0.1:8000/v")
+    success_url = reverse_lazy("")
 
 
 class TecnologiaCreateView(CreateView):
@@ -27,4 +27,4 @@ class TecnologiaCreateView(CreateView):
     model = Tecnologias
     context_object_name = 'tecnologias'
     form_class = InsereTecnologiaForm
-    success_url = "http://127.0.0.1:8000/v"
+    success_url = "localhost/v"

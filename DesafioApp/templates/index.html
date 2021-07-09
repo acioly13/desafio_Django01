@@ -29,17 +29,26 @@
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
                        aria-label="Pesquisar"><br><br>
+                <div>
+                    <div class="mb-3 form-check">
 
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Procurar Tags</label>
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Procurar Tags</label>
+                    </div>
                 </div>
             </form>
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Adicionar
-            </button>
+            <div>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Adicionar Tecnologia
+                </button>
+                <a href="/v">
+                    <button type="button" class="btn btn-success" data-bs-target="#exampleModal">
+                        Visualizar Tecnologias
+                    </button>
+                </a>
+            </div>
             <!-- Modal -->
 
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -86,9 +95,9 @@
                 </div>
             </div>
         </nav>
+
     </div>
 </div>
-
 
 <div class="modal-body" tabindex="-1">
     {% for tecnologia in tecnologias %}
