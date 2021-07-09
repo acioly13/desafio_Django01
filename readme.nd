@@ -1,0 +1,18 @@
+# Desafio Django
+
+
+## Criar e Visualizar Tecnologias de forma Sincrona, salvando em um Banco de Dasos
+
+
+## Tecnologias usadas: Django, Pythob, Bootstrap, html. postgresql
+
+### Features
+
+- [x] Criar Tecnologia
+- [x] Visualizar Tecnologia
+- [x] Salvar em um Banco de Dados
+- [ ] Apagar Tecnologia
+- [ ] Fazer Rodar na mesma pagina
+
+
+## OBS: pagína localhost: Adiciona a tecnologia, pagina localhost/v: Visualiza no banco de dados
