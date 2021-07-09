@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excluir</title>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+
+    Você tem certeza que quer excluir a tecnologia <b>{{ tecnologias.nome_Tec }}</b>? <br><br>
+
+    <button type="button">
+        <a href="{% url 'tecnologias' %}">Cancelar</a>
+    </button>
+    <button>Excluir</button>
+</form>
+
+
+</body>
+</html>
